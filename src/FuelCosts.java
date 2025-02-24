@@ -58,6 +58,6 @@ public class FuelCosts {
         double totalGasCost = totalGas * gasPrice;
         double totalDistance = gallons * mpg;
         System.out.printf("\nto drive 100 miles it would cost you %.2f $.%n", totalGasCost);
-        System.out.printf("on a full tank of gas you could travel a total of %.2f miles.%n.", totalDistance);
+        System.out.printf("on a full tank of gas you could travel a total of %.2f miles.%n", totalDistance);
     }
 }

@@ -4,8 +4,8 @@ public class CtoFConverter {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
-        boolean done = false;
-        double celsius = 0;
+        boolean done;
+        double celsius;
 
         do {
             System.out.print("Enter temp. in celsius: ");
