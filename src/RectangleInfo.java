@@ -16,9 +16,10 @@ public class RectangleInfo {
                 height = in.nextDouble();
                 doneHeight = true;
             } else {
-                System.out.print("Error: invalid width");
+                System.out.print("Error: invalid height:");
                 System.out.print("please re-enter a number.\n");
                 doneHeight = false;
+                in.next();
             }
         }while(!doneHeight);
 
@@ -31,6 +32,7 @@ public class RectangleInfo {
                 System.out.print("Error: invalid width");
                 System.out.print("please re-enter a number.\n");
                 doneWidth = false;
+                in.next();
             }
         }while(!doneWidth);
 
