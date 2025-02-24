@@ -7,7 +7,7 @@ public class HighorLow {
         Random generator = new Random();
 
         boolean done = false;
-        int guess = 0;
+        int guess;
         int answer = generator.nextInt(10) + 1;
 
         do {
